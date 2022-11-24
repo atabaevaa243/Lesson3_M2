@@ -65,13 +65,21 @@
 		04755AB5292E454F008CBC56 /* Lesson3_M2 */ = {
 			isa = PBXGroup;
 			children = (
+				04755AC5292F7B56008CBC56 /* bank */,
 				04755AB6292E454F008CBC56 /* main.swift */,
-				04755ABD292E48EA008CBC56 /* Bank.swift */,
-				04755ABF292E48F4008CBC56 /* Client.swift */,
 				04755AC1292E4EB7008CBC56 /* Hospital.swift */,
 				04755AC3292E4ED8008CBC56 /* Patient.swift */,
 			);
 			path = Lesson3_M2;
+			sourceTree = "<group>";
+		};
+		04755AC5292F7B56008CBC56 /* bank */ = {
+			isa = PBXGroup;
+			children = (
+				04755ABF292E48F4008CBC56 /* Client.swift */,
+				04755ABD292E48EA008CBC56 /* Bank.swift */,
+			);
+			path = bank;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

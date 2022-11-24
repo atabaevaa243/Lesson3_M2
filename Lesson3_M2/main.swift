@@ -16,19 +16,6 @@ import Foundation
 
 var hospital = Hospital()
 
-//hospital.addPatient(model: Patient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce"))
-//hospital.addPatient(model: Patient(firstName: "Kamila", secondName: "Murtazaeva", dateOfBirth: "01.03.2000", diagnosis: "Sil'no umnaya"))
-//hospital.addPatient(model: Patient(firstName: "Aidar", secondName: "Aidarov", dateOfBirth: "15.07.1998", diagnosis: "Ruka bolit"))
-//
-//hospital.findPatient(firstName: "Aziza", secondName: "Atabaeva")
-//
-//hospital.addPatient(model: Patient(firstName: "Rustam", secondName: "Nazarov", dateOfBirth: "07.11.1995", diagnosis: "golovnaya bol'"))
-//
-//hospital.addPatient(model: Patient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce"))
-//hospital.deletePatient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce")
-//hospital.findPatient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce")
-
-
 hospital.addPatient(firstName: "Бектур", secondName: "Айдаров", dateOfBirth: "12.09.1995", diagnosis: "Перелом руки")
 //Данные пациента успешно добавлены
 hospital.addPatient(firstName: "Айдана", secondName: "Мамытова", dateOfBirth: "25.03.2001", diagnosis: "Вывих")
