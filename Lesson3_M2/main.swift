@@ -41,6 +41,5 @@ hospital.findPatient(firstName: "Диана", secondName: "Султангази�
 hospital.findPatient(firstName: "Айжан", secondName: "Керимбаева")
 //Пациент не найден
 
-
-//hospital.deletePatient(firstName: "Амантур", secondName: "Исаков", dateOfBirth: "30.05.2000", diagnosis: "Повышенное давление")
-//Данные пациента удалены
+hospital.deletePatient(firstName: "Амантур", secondName: "Исаков")
+hospital.findPatient(firstName: "Амантур", secondName: "Исаков")

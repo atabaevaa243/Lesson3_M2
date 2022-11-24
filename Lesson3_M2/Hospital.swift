@@ -16,8 +16,8 @@ class Hospital {
         return model
     }
     
-    private func getModel2(firstName: String, secondName: String) -> Patient {
-        var model2 = Patient()
+    private func getModel2(firstName: String, secondName: String) -> Patient? {
+        var model2: Patient? = nil
         for i in patientArray{
             if i.firstName == firstName && i.secondName == secondName {
                 model2 = i
@@ -27,7 +27,7 @@ class Hospital {
         return model2
     }
     
-    func add (model: Patient){
+    func add(model: Patient){
         patientArray.append(model)
     }
     
@@ -41,24 +41,25 @@ class Hospital {
         }
     }
     
-    func findPatient(firstName: String, secondName: String) {
+    func findPatient(firstName: String, secondName: String){
         let model = getModel2(firstName: firstName, secondName: secondName)
-        if model.firstName == firstName && model.secondName == secondName {
-            print("\nИмя пациента - \(firstName) \nФамилия пациента - \(secondName) \nДата рождения - \(model.dateOfBirth) \nДиагноз - \(model.diagnosis)")
-        }else {
-            print("Пациент не найден")
-        }
-    }
-    
-    func deletePatient(firstName: String, secondName: String, dateOfBirth: String, diagnosis: String){
-        let modelTwo = getModel(firstName: firstName, secondName: secondName, dateOfBirth: dateOfBirth, diagnosis: diagnosis)
-        if modelTwo.firstName == modelTwo.firstName && modelTwo.secondName == modelTwo.secondName && modelTwo.dateOfBirth == modelTwo.dateOfBirth {
-//
-            print("Данные пациента удалены")
+        if model != nil{
+            print("\nИмя пациента - \(firstName) \nФамилия пациента - \(secondName) \nДата рождения - \(model!.dateOfBirth) \nДиагноз - \(model!.diagnosis)")
         }else{
             print("Пациент не найден")
         }
     }
+    
+    func deletePatient(firstName: String, secondName: String){
+        for (id, item) in patientArray.enumerated(){
+            if item.firstName == firstName && item.secondName == secondName {
+                patientArray.remove(at: id)
+                print("Данные пациента удалены")
+                break
+            }else{
+                print("Пациент не найден")
+            }
+        }
+    }
 }
 
-// создать перем и потом ее удалить из массива
