@@ -40,6 +40,7 @@ hospital.findPatient(firstName: "Диана", secondName: "Султангази�
 //Диагноз - Сердечная недостаточность
 hospital.findPatient(firstName: "Айжан", secondName: "Керимбаева")
 //Пациент не найден
-hospital.deletePatient(firstName: "Амантур", secondName: "Исаков", dateOfBirth: "30.05.2000", diagnosis: "Повышенное давление")
+
+
+//hospital.deletePatient(firstName: "Амантур", secondName: "Исаков", dateOfBirth: "30.05.2000", diagnosis: "Повышенное давление")
 //Данные пациента удалены
-hospital.findPatient(firstName: "Алишер", secondName: "Абдыраев")

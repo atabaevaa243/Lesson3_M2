@@ -53,10 +53,12 @@ class Hospital {
     func deletePatient(firstName: String, secondName: String, dateOfBirth: String, diagnosis: String){
         let modelTwo = getModel(firstName: firstName, secondName: secondName, dateOfBirth: dateOfBirth, diagnosis: diagnosis)
         if modelTwo.firstName == modelTwo.firstName && modelTwo.secondName == modelTwo.secondName && modelTwo.dateOfBirth == modelTwo.dateOfBirth {
-            patientArray.removeAll()
+//
             print("Данные пациента удалены")
         }else{
             print("Пациент не найден")
         }
     }
 }
+
+// создать перем и потом ее удалить из массива
