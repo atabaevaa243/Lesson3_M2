@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		04755AB7292E454F008CBC56 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04755AB6292E454F008CBC56 /* main.swift */; };
+		04755ABE292E48EA008CBC56 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04755ABD292E48EA008CBC56 /* Bank.swift */; };
+		04755AC0292E48F4008CBC56 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04755ABF292E48F4008CBC56 /* Client.swift */; };
+		04755AC2292E4EB7008CBC56 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04755AC1292E4EB7008CBC56 /* Hospital.swift */; };
+		04755AC4292E4ED8008CBC56 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04755AC3292E4ED8008CBC56 /* Patient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		04755AB3292E454F008CBC56 /* Lesson3_M2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lesson3_M2; sourceTree = BUILT_PRODUCTS_DIR; };
 		04755AB6292E454F008CBC56 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04755ABD292E48EA008CBC56 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		04755ABF292E48F4008CBC56 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		04755AC1292E4EB7008CBC56 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		04755AC3292E4ED8008CBC56 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				04755AB6292E454F008CBC56 /* main.swift */,
+				04755ABD292E48EA008CBC56 /* Bank.swift */,
+				04755ABF292E48F4008CBC56 /* Client.swift */,
+				04755AC1292E4EB7008CBC56 /* Hospital.swift */,
+				04755AC3292E4ED8008CBC56 /* Patient.swift */,
 			);
 			path = Lesson3_M2;
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04755AB7292E454F008CBC56 /* main.swift in Sources */,
+				04755AC2292E4EB7008CBC56 /* Hospital.swift in Sources */,
+				04755ABE292E48EA008CBC56 /* Bank.swift in Sources */,
+				04755AC0292E48F4008CBC56 /* Client.swift in Sources */,
+				04755AC4292E4ED8008CBC56 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

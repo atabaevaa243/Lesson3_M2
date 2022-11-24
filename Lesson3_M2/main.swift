@@ -1,11 +1,58 @@
-//
-//  main.swift
-//  Lesson3_M2
-//
-//  Created by mac on 23/11/22.
-//
+
 
 import Foundation
 
-print("Hello, World!")
+//Инкапсуляция
 
+//var bank = Bank()
+//
+//bank.addCustomerToArray(model: Client(name: "Aziza", id: 5))
+//bank.addCustomerToArray(model: Client(name: "Kamila", id: 9))
+//bank.addCustomerToArray(model: Client(name: "Aidar", id: 55))
+//
+//bank.printInfo(id: 9)
+//bank.printInfo(id: 5)
+//bank.printInfo(id: 55)
+
+var hospital = Hospital()
+
+//hospital.addPatient(model: Patient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce"))
+//hospital.addPatient(model: Patient(firstName: "Kamila", secondName: "Murtazaeva", dateOfBirth: "01.03.2000", diagnosis: "Sil'no umnaya"))
+//hospital.addPatient(model: Patient(firstName: "Aidar", secondName: "Aidarov", dateOfBirth: "15.07.1998", diagnosis: "Ruka bolit"))
+//
+//hospital.findPatient(firstName: "Aziza", secondName: "Atabaeva")
+//
+//hospital.addPatient(model: Patient(firstName: "Rustam", secondName: "Nazarov", dateOfBirth: "07.11.1995", diagnosis: "golovnaya bol'"))
+//
+//hospital.addPatient(model: Patient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce"))
+//hospital.deletePatient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce")
+//hospital.findPatient(firstName: "Aziza", secondName: "Atabaeva", dateOfBirth: "27.01.2000", diagnosis: "Razbitoe serdce")
+
+
+hospital.addPatient(firstName: "Бектур", secondName: "Айдаров", dateOfBirth: "12.09.1995", diagnosis: "Перелом руки")
+//Данные пациента успешно добавлены
+hospital.addPatient(firstName: "Айдана", secondName: "Мамытова", dateOfBirth: "25.03.2001", diagnosis: "Вывих")
+//Данные пациента успешно добавлены
+hospital.addPatient(firstName: "Алишер", secondName: "Абдыраев", dateOfBirth: "01.10.1987", diagnosis: "Давление черепного мозга")
+//Данные пациента успешно добавлены
+hospital.addPatient(firstName: "Амантур", secondName: "Исаков", dateOfBirth: "30.05.2000", diagnosis: "Повышенное давление")
+//Данные пациента успешно добавлены
+hospital.addPatient(firstName: "Диана", secondName: "Султангазиева", dateOfBirth: "15.01.1998", diagnosis: "Сердечная недостаточность")
+//Данные пациента успешно добавлены
+hospital.addPatient(firstName: "Алишер", secondName: "Абдыраев", dateOfBirth: "01.10.1987", diagnosis: "Давление черепного мозга")
+//Данные введенного пациента уже сущетсвуют
+hospital.findPatient(firstName: "Айдана", secondName: "Мамытова")
+//Имя пациента - Айдана
+//Фамилия пациента - Мамытова
+//Дата рождения - 25.03.2001
+//Диагноз - Вывих
+hospital.findPatient(firstName: "Диана", secondName: "Султангазиева")
+//Имя пациента - Диана
+//Фамилия пациента - Султангазиева
+//Дата рождения - 15.01.1998
+//Диагноз - Сердечная недостаточность
+hospital.findPatient(firstName: "Айжан", secondName: "Керимбаева")
+//Пациент не найден
+hospital.deletePatient(firstName: "Амантур", secondName: "Исаков", dateOfBirth: "30.05.2000", diagnosis: "Повышенное давление")
+//Данные пациента удалены
+hospital.findPatient(firstName: "Алишер", secondName: "Абдыраев")
