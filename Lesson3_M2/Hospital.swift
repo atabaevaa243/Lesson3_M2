@@ -26,6 +26,7 @@ class Hospital {
         }
         return model2
     }
+
     
     func add(model: Patient){
         patientArray.append(model)
